@@ -34,3 +34,12 @@ make tests pass
 rails g rspec:model assignment
 
 write tests for assignment model
+
+run tests
+
+rails g model assignment description:string assigned_on:date due_on:date
+
+rake db:migrate
+rake db:test:prepare
+
+make tests pass
