@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe Assignment do
-  it 'should have a description of type text' do
+  it 'should have a description of type string' do
     a = Assignment.new(:description => "some text")
     a.save!
     a.description.instance_of?(String)
