@@ -18,4 +18,19 @@ rvm 1.9.2
 
 bundle
 
-rspec spec/models/person_spec.rb
+rspec spec/models/person_spec.rb or bundle exec rspec spec
+
+rails g model person first_name:string last_name:string (don't overwrite spec)
+
+run tests
+
+rake db:migrate
+rake db:test:prepare
+
+run tests
+
+make tests pass
+
+rails g rspec:model assignment
+
+write tests for assignment model
